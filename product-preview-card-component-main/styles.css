@@ -1,0 +1,128 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin:0px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.mainContent {
+    display:flex;
+    flex-direction: row;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 50vw;
+    height: 50vh;
+    justify-self: flex-end;
+    background-color: white;
+    max-width: 675px;
+    height: 500px
+}
+
+#productType {
+    font-size: small;
+    margin:0px
+}
+
+#description {
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#cartIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+
+
+.attribution{
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    margin: 0px;
+}
+
+#productImage {
+    height:100%;
+}
+
+#productContent {
+    display:flex;
+    flex-direction: column;
+    margin:50px;
+    height:auto;
+}
+
+#addToCart {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 4px;
+    color: white;
+    padding:10px;
+    border-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+#title {
+    font-family: 'Fraunces', serif;
+    hsl(212, 21%, 14%);
+    margin-bottom:2px;
+}
+
+.secondaryFont{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+#originalPrice{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+#price {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+}
+
+
+.price {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#buttonText{
+    display:inline-block;
+    text-align: center;
+}
+
+.container{
+    padding:10px;
+}
